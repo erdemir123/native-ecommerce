@@ -5,7 +5,6 @@ export default function Buttone({ mt, color, onPress, children, bg }) {
   return (
     <Button
       mb={mt}
-      color={color}
       rounded={20}
       h={55}
       mx={3}
@@ -15,7 +14,7 @@ export default function Buttone({ mt, color, onPress, children, bg }) {
         fontWeight: "bold",
       }}
       _pressed={{
-        bg: bg,
+        bg: color
       }}
       onPress={onPress}
     >
