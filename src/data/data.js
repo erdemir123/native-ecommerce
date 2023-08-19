@@ -6,6 +6,9 @@ const data = [
     url: "https://img-monsternotebook.mncdn.com/UPLOAD/urun-gorselleri-yeni/HUMA/kucuk-resimler-2/thumb/huma-h4-v4.1-resim-1_medium.png",
     name: "Huma H4 V4.14,1 İş Bilgisayarı",
     type: "Computer",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 2,
@@ -14,6 +17,9 @@ const data = [
     url: "https://img-monsternotebook.mncdn.com/UPLOAD/urun-gorselleri-yeni/ABRA/A5-V17-2/thumb/TR%20Abra%20A5%20v16%20-%20nh58%20-%20Windows_medium.png",
     name: "Abra A5 V17.2.1 15,6 Gaming Laptop",
     type: "Computer",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 3,
@@ -22,6 +28,9 @@ const data = [
     url: "https://img-monsternotebook.mncdn.com/UPLOAD/urun-gorselleri-yeni/HUMA/h5%20v3/thumb/TR%20HumaH5%20v3.1%20-%20Windows_medium.png",
     name: "Huma H5 V3.1.1 15,6 Gaming Laptop",
     type: "Computer",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 4,
@@ -30,6 +39,9 @@ const data = [
     url: "https://img-monsternotebook.mncdn.com/UPLOAD/urun-gorselleri-yeni/t7-v20.5-resimler/thumb/windows_medium.png",
     name: "Tulpar T7 V20.5.1 17,3 Gaming Laptop",
     type: "Computer",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 5,
@@ -38,6 +50,9 @@ const data = [
     url: "https://img-monsternotebook.mncdn.com/UPLOAD/urun-gorselleri-yeni/HUMA/h5%20v3/thumb/TR%20HumaH5%20v3.1%20-%20Windows_medium.png",
     name: "Huma H5 V3.2.1 15,6 Gaming Laptop",
     type: "Computer",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 6,
@@ -46,6 +61,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_82452022/fee_325_225_png/ALTUS-ALK-471-X-E-Enerji-S%C4%B1n%C4%B1f%C4%B1-514L-Buzdolab%C4%B1-Beyaz",
     name: "ALTUS ALK 471 X E Enerji Sınıfı 514L Buzdolabı Beyaz",
     type: "Electronic",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 7,
@@ -54,6 +72,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93161816/fee_325_225_png/ALTUS-AL-404-MP-4-Programl%C4%B1-Bula%C5%9F%C4%B1k-Makinesi-Beyaz",
     name: "ALTUS AL 404 MP 4 Programlı Bulaşık Makinesi Beyaz",
     type: "Electronic",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 8,
@@ -62,6 +83,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_84286287/fee_325_225_png/VESTEL-BM-3111-E-Enerji-S%C4%B1n%C4%B1f%C4%B1-3-Programl%C4%B1-13-Ki%C5%9Filik-Bula%C5%9F%C4%B1k-Makinesi-Beyaz",
     name: "VESTEL BM 3111 E Enerji Sınıfı 3 Programlı 13 Kişilik Bulaşık Makinesi Beyaz",
     type: "Electronic",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 9,
@@ -70,6 +94,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-75142427/fee_325_225_png/ALTUS-ALA137B-71-lt-F%C4%B1r%C4%B1n-Siyah",
     name: "ALTUS ALA137B 71 lt Fırın Siyah",
     type: "Electronic",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 10,
@@ -78,6 +105,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93380179/fee_325_225_png/HOOVER-HLE-C10DG-17-10-Kg-NFC-Ba%C4%9Flant%C4%B1l%C4%B1-Kurutma-Makinesi-Beyaz",
     name: "HOOVER HLE C10DG-17 10 Kg NFC Bağlantılı Kurutma Makinesi Beyaz",
     type: "Electronic",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 11,
@@ -86,6 +116,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ms-shop-mmtr-l123801/wcs_overlay_prod_detail",
     name: "GRUNDIG GDH 92 A++ Enerji Sınıfı 9Kg Isı Pompalı Kurutma Makinesi",
     type: "Electronic",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 12,
@@ -94,6 +127,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-78017548/fee_325_225_png/JBL-Go-2-Bluetooth-Hoparl%C3%B6r-K%C4%B1rm%C4%B1z%C4%B1",
     name: "GJBL Go 2 Bluetooth Hoparlör Kırmızı",
     type: "Accesssory",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 13,
@@ -102,6 +138,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_82727816/fee_325_225_png/JBL-Clip-4-Bluetooth-Hoparl%C3%B6r-Turkuaz",
     name: "JBL Clip 4 Bluetooth Hoparlör Turkuaz",
     type: "Accesssory",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 14,
@@ -110,6 +149,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93712790/fee_325_225_png/SAMSUNG-EP-TA800N-TypeC-25W-Kablosuz-H%C4%B1zl%C4%B1-%C5%9Earj-Adapt%C3%B6r%C3%BC-Beyaz",
     name: "SAMSUNG EP-TA800N TypeC 25W Kablosuz Hızlı Şarj Adaptörü Beyaz",
     type: "Accesssory",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 15,
@@ -118,6 +160,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93235291/fee_325_225_png/SAMSUNG-Samsung-EP-P1300T-Single-Pad-Kablosuz-H%C4%B1zl%C4%B1-%C5%9Earj-Cihaz%C4%B1-Beyaz",
     name: "SAMSUNG Samsung EP-P1300T Single Pad Kablosuz Hızlı Şarj Cihazı Beyaz",
     type: "Accesssory",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 16,
@@ -126,6 +171,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ms-shop-mmtr-l123801/wcs_overlay_prod_detail",
     name: "FRISBY FNC 37ST Laptop Soğutucu",
     type: "Electronic",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 17,
@@ -134,14 +182,20 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79133333/fee_325_225_png/APPLE-iPhone-11-64GB-Ak%C4%B1ll%C4%B1-Telefon-Siyah",
     name: "APPLE iPhone 11 64GB Akıllı Telefon Siyah",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
-    id: 17,
+    id: 56,
     title: "Iphone",
     price: 15799,
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79133333/fee_325_225_png/APPLE-iPhone-11-64GB-Ak%C4%B1ll%C4%B1-Telefon-Siyah",
     name: "APPLE iPhone 11 64GB Akıllı Telefon Siyah",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 18,
@@ -150,6 +204,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_89722915/fee_325_225_png/APPLE-iPhone-11-128GB-Ak%C4%B1ll%C4%B1-Telefon-Siyah",
     name: "APPLE iPhone 11 128GB Akıllı Telefon Siyah",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 19,
@@ -158,6 +215,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_97962777/fee_325_225_png/SAMSUNG-Galaxy-A04S-128GB-Ak%C4%B1ll%C4%B1-Telefon-Siyah",
     name: "SAMSUNG Galaxy A04S 128GB Akıllı Telefon Siyah",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 20,
@@ -166,6 +226,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93267503/fee_325_225_png/SAMSUNG-Galaxy-A73-128-GB-Ak%C4%B1ll%C4%B1-Telefon-Gri",
     name: "SAMSUNG Galaxy A73 128 GB Akıllı Telefon Gri",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 21,
@@ -174,6 +237,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87487429/fee_325_225_png/OPPO-A16-64-GB-Ak%C4%B1ll%C4%B1-Telefon-%C4%B0nci-Mavisih",
     name: "OPPO A16 64 GB Akıllı Telefon İnci Mavisi",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 22,
@@ -182,6 +248,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94890478/fee_325_225_png/OPPO-A55-128-GB-Ak%C4%B1ll%C4%B1-Telefon-I%C5%9F%C4%B1lt%C4%B1l%C4%B1-Siyah",
     name: "OPPO A55 128 GB Akıllı Telefon Işıltılı Siyah",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 23,
@@ -190,6 +259,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98290290/fee_325_225_png/XIAOMI-Redmi-Note-11-6GB-128GB-Gece-Mavisi-Ak%C4%B1ll%C4%B1-Telefon",
     name: "XIAOMI Redmi Note 11 6GB/128GB Gece Mavisi Akıllı Telefon",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 24,
@@ -198,6 +270,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95972421/fee_325_225_png/ALCATEL-2020X-Tu%C5%9Flu-Telefon-Gri",
     name: "ALCATEL 2020X Tuşlu Telefon Gri",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 25,
@@ -206,6 +281,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96433710/fee_325_225_png/SAMSUNG-Galaxy-Z-Flip-4-128GB-Ak%C4%B1ll%C4%B1-Telefon-Mavi",
     name: "SAMSUNG Galaxy Z Flip 4 128GB Akıllı Telefon Mavi",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 26,
@@ -214,6 +292,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96540024/fee_325_225_png/TECNO-Pova-Neo-64GB-Ak%C4%B1ll%C4%B1-Telefon-Parlak-Mavi",
     name: "TECNO Pova Neo 64GB Akıllı Telefon Parlak Mavi",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 27,
@@ -222,6 +303,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_86567545/fee_325_225_png/SAMSUNG-Galaxy-Z-Fold-3-256GB-Ak%C4%B1ll%C4%B1-Telefon-G%C3%BCm%C3%BC%C5%9F",
     name: "SAMSUNG Galaxy Z Fold 3 256GB Akıllı Telefon Gümüş",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 28,
@@ -230,6 +314,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96279744/fee_325_225_png/CASPER-Via-E30-Plus-128GB-Ak%C4%B1ll%C4%B1-Telefon-Mavi",
     name: "CASPER Via E30 Plus 128GB Akıllı Telefon Mavi",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
   {
     id: 29,
@@ -238,6 +325,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_88764350/fee_325_225_png/VIVO-Y21S-128GB-Ak%C4%B1ll%C4%B1-Telefon-G%C3%BCn-Ortas%C4%B1-Mavisi",
     name: "VIVO Y21S 128GB Akıllı Telefon Gün Ortası Mavisi",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Ürün açıklaması, e-ticaret sitelerinin ürün sayfalarında yer alan; ürünün özelliklerini ve ne işe yaradığını müşterilere açıklamaya yarayan içeriktir. Ürün açıklamasının amacı, ürünü detaylı şekilde tanıtmak ve potansiyel müşterileri ürünü satın alma konusunda teşvik etmektir.Satın almaya yönlendiren bir ürün açıklaması, ürününüzün hangi sorunları çözdüğünü, müşterilerinizin o ürünü kullanarak ne kazanacaklarını, ürünlerinizi pazardaki diğer ürünlerden ayıran özellikleri gibi detayları içermelidir.Ürün açıklamaları, internet üzerinden alışveriş yapmak isteyen kullanıcılara yol gösterici içeriklerdir. Dijital ortamdan ürün seçmeye çalışan müşterilerinizi o ürünü satın almaya ikna etmeniz için birçok faktörü düşünmelisiniz. Ürün açıklaması bu noktada ürünle ilgili varsa teknik bilgileri ve kullanımıyla ilgili özellikleri içererek potansiyel müşterilerinizi bilgilendirirken o ürünü satın almaya yönlendirici detayları da içermelidir.",
   },
   {
     id: 30,
@@ -246,6 +336,9 @@ const data = [
     url: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_91588853/fee_325_225_png/REALME-C25Y-128GB-Ak%C4%B1ll%C4%B1-Telefon-Buzul-Mavisi",
     name: "REALME C25Y 128GB Akıllı Telefon Buzul Mavisi",
     type: "Phone",
+    rating: Math.floor(Math.random() * 5),
+    product_desc:
+      "Öncelikle optimize edilmiş ürün açıklamalarına sahip olmak, arama motoru optimizasyonunuzu (SEO) geliştirmenize yardımcı olabilir. Ürün açıklamalarınızı doğru anahtar kelimeler içerecek şekilde optimize ederek Google’da en üst sıralara çıkma şansınızı artırabilirsiniz. Ürün açıklamaları olmadan resimlerinizi anahtar kelimeler için optimize edebilirsiniz. Ancak içerik eksikliği nedeniyle ürün sayfanız arama sonuçlarında üst sıralarda görünmeyebilir. Böylece sattığınız ürünü alma potansiyeline sahip hedef kitlenizin arattığı anahtar kelimeleri içeriğinizde bulundurarak hem bu kişileri doğru sayfalara yönlendirmiş olur hem de SEO’nuz için artı puan kazanmış olursunuz. Dahası, rekabet oranı yüksek ürünleri satabilmek için de SEO uyumlu içeriklere sahip olmanız gerektiği için üst sıralarda yer alan sitenize daha çok kullanıcı çekmeniz de böylelikle mümkün hale gelir.     Ürün açıklaması, ürün görselinin tek başına yapamayacağı ek bilgileri sunar. Örneğin, muhtemelen sadece görsele bakarak dizüstü bilgisayar almazsınız. Dizüstü bilgisayarın teknik özelliklerini öğrenmek istersiniz. Bu aynı zamanda kıyafetler için de geçerlidir. Bazı insanlar belirli kumaşları tercih etmez ve e-ticaret mağazanızda sattığınız giysilerin etiket bilgilerini incelemek isteyebilirler. Müşterilerin belirli bir ürünün kendileri için uygun olup olmadığını bilmeleri,  iade oranlarını düşürmenize de yardımcı olur. Ayrıca müşterilere temel ürün bilgilerini sağlayarak müşteri hizmetleri ile ilgili soruların artmasını da önlersiniz.",
   },
 ];
 export default data;
