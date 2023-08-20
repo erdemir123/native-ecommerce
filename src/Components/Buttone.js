@@ -4,7 +4,7 @@ import React from "react";
 export default function Buttone({ mt, color, onPress, children, bg }) {
   return (
     <Button
-      mb={mt}
+      mt={mt}
       rounded={20}
       h={55}
       mx={3}
@@ -14,7 +14,7 @@ export default function Buttone({ mt, color, onPress, children, bg }) {
         fontWeight: "bold",
       }}
       _pressed={{
-        bg: color
+        bg: color,
       }}
       onPress={onPress}
     >

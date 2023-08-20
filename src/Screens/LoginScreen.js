@@ -1,32 +1,35 @@
-import { View, Text, Image, StyleSheet,  } from "react-native";
+import { View, Text, Image, StyleSheet, Pressable, TouchableOpacity } from "react-native";
 import React from "react";
-import {
-  Box,
-  Button,
-  Heading,
-  Input,
-  ScrollView,
-  WarningOutlineIcon,
-  Pressable
-} from "native-base";
+import { Box, Button, Heading, Input, WarningOutlineIcon } from "native-base";
 import Colors from "../data/color";
-import { MaterialIcons ,Entypo} from "@expo/vector-icons";
-
 import { useFormik } from "formik";
 import validation from "../Components/validation";
+import { MaterialIcons, Entypo, EvilIcons } from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/native";
 
 export default function LoginScreen() {
-  const { handleChange, handleBlur, handleSubmit, values, errors, touched } =
-    useFormik({
-      initialValues: {
-        email: "",
-        password: "",
-      },
-      validationSchema: validation,
-      onSubmit: async (values) => {
-        await console.log(values);
-      },
-    });
+  const { navigate } = useNavigation();
+
+  const {
+    values,
+    handleBlur,
+    handleChange,
+    handleSubmit,
+    touched,
+    errors,
+    isSubmitting,
+  } = useFormik({
+    initialValues: {
+      email: "",
+      password: "",
+    },
+    onSubmit: async  (values) => {
+     await console.log("first")
+     await navigate("Order");
+    },
+    validationSchema: validation,
+  });
+
   return (
     <Box bg={Colors.main} w="100%" h="100%" borderColor="red" borderWidth="1">
       <Image
@@ -39,6 +42,28 @@ export default function LoginScreen() {
         LOGİN
       </Heading>
       <Box w="full" h="full" mt={2}>
+        {/* <Input
+          placeholder="FirstName LastName"
+          variant="underlined"
+          w="70%"
+          pl={2}
+          color={Colors.white}
+          mx="auto"
+          mb={1}
+          placeholderTextColor="white"
+          size="xl"
+          value={values.fullName}
+          onChangeText={handleChange("fullName")}
+          onBlur={handleBlur("fullName")}
+          InputLeftElement={<EvilIcons name="user" size={28} color="orange" />}
+          keyboardType="email-address"
+          autoCapitalize="none"
+        />
+        {errors.fullName && touched.fullName && (
+          <Text leftIcon={<WarningOutlineIcon size="2" />} style={styles.error}>
+            {errors.fullName}
+          </Text>
+        )} */}
         <Input
           placeholder="user@gmail.com"
           variant="underlined"
@@ -48,6 +73,7 @@ export default function LoginScreen() {
           mx="auto"
           placeholderTextColor="white"
           size="xl"
+          mb={1}
           value={values.email}
           onChangeText={handleChange("email")}
           onBlur={handleBlur("email")}
@@ -58,17 +84,19 @@ export default function LoginScreen() {
           autoCapitalize="none"
         />
         {errors.email && touched.email && (
-          <Text leftIcon={<WarningOutlineIcon size="2" />}>{errors.email}</Text>
+          <Text leftIcon={<WarningOutlineIcon size="2" />} style={styles.error}>
+            {errors.email}
+          </Text>
         )}
         <Input
-          placeholder="**********" 
+          placeholder="**********"
           variant="underlined"
           w="70%"
           mx="auto"
           value={values.password}
           onChangeText={handleChange("password")}
           onBlur={handleBlur("password")}
-          mt={4}
+          mb={1}
           pl={2}
           placeholderTextColor="white"
           size="lg"
@@ -80,26 +108,31 @@ export default function LoginScreen() {
           keyboardType="ascii-capable"
         />
         {errors.password && touched.password && (
-          <Text leftIcon={<WarningOutlineIcon size="2" />}>{errors.password}</Text>
+          <Text leftIcon={<WarningOutlineIcon size="2" />} style={styles.error}>
+            {errors.password}
+          </Text>
         )}
         <Button
           _pressed={{
             bg: Colors.orange,
           }}
-          my={30}
+          my={15}
           rounded={50}
           w="40%"
           mx="auto"
-          onPress={handleSubmit}
+          onPress={() => navigate("Bottom")}
         >
           Login
         </Button>
-        <Pressable mt={4}>
+        <TouchableOpacity onPress={handleSubmit}>
+          <Text>dokun la</Text>
+        </TouchableOpacity>
+        <Pressable mt={2} onPress={() => navigate("Register")}>
           <Text
             style={{
               color: Colors.orange,
               textAlign: "center",
-              fontSize: 24,
+              fontSize: 18,
               opacity: 0.6,
             }}
           >
@@ -115,5 +148,10 @@ const styles = StyleSheet.create({
     width: "100%",
     height: 300,
     marginTop: 40,
+  },
+  error: {
+    marginBottom: 4,
+    color: "orange",
+    textAlign: "center",
   },
 });

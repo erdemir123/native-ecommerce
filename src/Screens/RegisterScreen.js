@@ -5,8 +5,10 @@ import Colors from "../data/color";
 import { useFormik } from "formik";
 import validation from "../Components/validation";
 import { MaterialIcons, Entypo, EvilIcons } from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/native";
 
 export default function RegisterScreen() {
+  const {navigate} = useNavigation()
   const { handleChange, handleBlur, handleSubmit, values, errors, touched } =
     useFormik({
       initialValues: {
@@ -16,7 +18,7 @@ export default function RegisterScreen() {
       },
       validationSchema: validation,
       onSubmit: async (values) => {
-        await console.log(values);
+        await navigate("Order")
       },
     });
   return (
@@ -92,7 +94,7 @@ export default function RegisterScreen() {
             <Entypo name="eye-with-line" size={24} color="orange" />
           }
           secureTextEntry={true}
-          keyboardType="ascii-capable"
+          keyboardType="web-search"
         />
         {errors.password && touched.password && (
           <Text leftIcon={<WarningOutlineIcon size="2" />} style={styles.error}>
@@ -111,7 +113,7 @@ export default function RegisterScreen() {
         >
           Sing Up
         </Button>
-        <Pressable mt={2}>
+        <Pressable mt={2} onPress={()=>navigate("Login")}>
           <Text
             style={{
               color: Colors.orange,
