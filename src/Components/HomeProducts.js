@@ -4,8 +4,10 @@ import { FlatList } from "native-base";
 import data from "../data/data";
 import Colors from "../data/color";
 import Rating from "./Rating";
+import { useNavigation } from "@react-navigation/native";
 
 export default function HomeProducts() {
+  const { navigate } = useNavigation();
   const [isRefresh, setIsRefresh] = useState(false);
   const flatListRef = useRef(null);
   const handleRefresh = () => {
@@ -15,10 +17,9 @@ export default function HomeProducts() {
     }, 1000);
   };
   // const handleFlatListEnd=(e)=>{
-  //   // flatListRef.current.scrollToOffset({ offset: 0, animated: true });
-  // }
+
   const RenderItem = ({ item }) => (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={()=>navigate("Single",item)}>
       <View
         style={{
           width: 160,

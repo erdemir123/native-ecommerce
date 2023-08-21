@@ -1,6 +1,6 @@
 import { View, Text, Image, StyleSheet, Pressable } from "react-native";
 import React from "react";
-import { Box, Button, Heading, Input,WarningOutlineIcon } from "native-base";
+import { Box, Button, Heading, Input, WarningOutlineIcon } from "native-base";
 import Colors from "../data/color";
 import { useFormik } from "formik";
 import validation from "../Components/validation";
@@ -8,7 +8,7 @@ import { MaterialIcons, Entypo, EvilIcons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
 export default function RegisterScreen() {
-  const {navigate} = useNavigation()
+  const { navigate } = useNavigation();
   const { handleChange, handleBlur, handleSubmit, values, errors, touched } =
     useFormik({
       initialValues: {
@@ -18,7 +18,7 @@ export default function RegisterScreen() {
       },
       validationSchema: validation,
       onSubmit: async (values) => {
-        await navigate("Order")
+        await navigate("Bottom");
       },
     });
   return (
@@ -75,7 +75,9 @@ export default function RegisterScreen() {
           autoCapitalize="none"
         />
         {errors.email && touched.email && (
-          <Text leftIcon={<WarningOutlineIcon size="2" />} style={styles.error}>{errors.email}</Text>
+          <Text leftIcon={<WarningOutlineIcon size="2" />} style={styles.error}>
+            {errors.email}
+          </Text>
         )}
         <Input
           placeholder="**********"
@@ -113,7 +115,7 @@ export default function RegisterScreen() {
         >
           Sing Up
         </Button>
-        <Pressable mt={2} onPress={()=>navigate("Login")}>
+        <Pressable mt={2} onPress={() => navigate("Login")}>
           <Text
             style={{
               color: Colors.orange,
@@ -135,9 +137,9 @@ const styles = StyleSheet.create({
     height: 300,
     marginTop: 40,
   },
-  error:{
-    marginBottom:4,
-    color:"orange",
-    textAlign:"center"
-  }
+  error: {
+    marginBottom: 4,
+    color: "orange",
+    textAlign: "center",
+  },
 });

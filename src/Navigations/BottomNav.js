@@ -1,42 +1,43 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Ionicons } from "@expo/vector-icons";
+import {
+  FontAwesome5,
+  Ionicons,
+  MaterialCommunityIcons,
+} from "@expo/vector-icons";
 import HomeScreen from "../Screens/HomeScreen";
 import { useNavigation } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import ProfileScreen from "../Screens/ProfileScreen";
 import CartScreen from "../Screens/CartScreen";
 import Colors from "../data/color";
-import { Center } from "native-base";
-import { Pressable } from "react-native";
+import { Box, Center, Text, Pressable, View } from "native-base";
+import { StyleSheet } from "react-native";
+import { AntDesign, FontAwesome, Entypo } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
-const CustomBar = ({ children, onPress }) => {
-  return (
+const CustomBar = ({ children, onPress, focused }) => 
+  focused ? (
+    <Text>hh </Text>
+  ) : (
     <Pressable
-      bg={Colors.main}
-      top={-30}
-
-      w={50}
+      onPress={onPress}
       h={50}
-      omPress={onPress}
+      w={50}
       rounded="full"
-      shadow={2}
+      bg={Colors.main}
+      top={-20}
     >
       {children}
     </Pressable>
   );
-};
-export default function BottomNav() {
+export default function BottomNav(props) {
   return (
     <Tab.Navigator
       initialRouteName="Main"
       screenOptions={({ route }) => ({
-        tabBarActiveTintColor: Colors.main,
-        tabBarInactiveTintColor: Colors.subGreen,
-        tabBarStyle: {
-          backgroundColor: Colors.white,
-        },
+        tabBarShowLabel: false,
+        tabBarStyle: { ...styles.tab },
         headerShown: false,
       })}
     >
@@ -45,7 +46,39 @@ export default function BottomNav() {
         component={HomeScreen}
         options={{
           tabBarIcon: ({ focused }) => (
-            <Ionicons name="ios-home" color={focused ? Colors.main : Colors.subGreen} size={36}  />
+            <Center>
+              {focused ? (
+                <Entypo name="home" size={24} color={Colors.main} />
+              ) : (
+                <AntDesign name="home" size={24}  color={Colors.black}  />
+              )}
+            </Center>
+          ),
+        }}
+      />
+
+      <Tab.Screen
+        name="CartScreen"
+        component={CartScreen}
+        options={{
+          tabBarButton: (props) => <CustomBar {...props} />,
+
+          tabBarIcon: ({ focused }) => (
+            <Center>
+              {focused ? (
+                <FontAwesome5
+                  name="shopping-basket"
+                  size={24}
+                  color={Colors.white}
+                />
+              ) : (
+                <MaterialCommunityIcons
+                  name="shopping-outline"
+                  size={24}
+                  color={Colors.black}
+                />
+              )}
+            </Center>
           ),
         }}
       />
@@ -53,21 +86,21 @@ export default function BottomNav() {
         name="Profile"
         component={ProfileScreen}
         options={{
-          tabBarButton: (props) => <CustomBar {...props} />,
-          tabBarIcon: ({focused}) => (
-            <Ionicons name="ios-home" color={focused ? Colors.white : Colors.main} size={24}  />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="CartScreen"
-        component={CartScreen}
-        options={{
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="cart" color={color} size={size} />
+          tabBarIcon: ({ focused }) => (
+            <Center>
+              {focused ? (
+                <AntDesign name="user" size={24} color={Colors.main} />
+              ) : (
+                <AntDesign name="user" size={24} color="black" />
+              )}
+            </Center>
           ),
         }}
       />
     </Tab.Navigator>
   );
 }
+
+const styles = StyleSheet.create({
+  tab: { elevation: 0, backgroundColor: Colors.white, height: 50,},
+});

@@ -3,9 +3,10 @@ import React from "react";
 import { Box, HStack, Input } from "native-base";
 import Colors from "../data/color";
 import { Feather } from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/native";
 
 export default function HomeSearch() {
-    
+  const { navigate } = useNavigation();
   return (
     <HStack
       space={3}
@@ -26,7 +27,7 @@ export default function HomeSearch() {
            { bg:Colors.white}
         }
       />
-      <Pressable ml={3}>
+      <Pressable ml={3} onPress={()=>navigate("CartScreen")}>
         <Feather name="shopping-bag" size={24} color="white"  />
         <Box px={1} rounded="full" bg={Colors.red} position="absolute" top={-5} left={3} _text={
             {

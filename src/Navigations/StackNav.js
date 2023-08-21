@@ -7,13 +7,14 @@ import { StatusBar } from "native-base";
 import LoginScreen from "../Screens/LoginScreen";
 import RegisterScreen from "../Screens/RegisterScreen";
 import OrderScreen from "../Screens/OrderScreen";
+import SingleProductScreen from "../Screens/SingleProductScreen";
 const Stack = createNativeStackNavigator();
 export default function StackNav() {
   return (
     <NavigationContainer>
       <StatusBar hidden={true} />
       <Stack.Navigator
-        initialRouteName="Login"
+        initialRouteName="Bottom"
         screenOptions={{
           headerShown: false,
         }}
@@ -21,6 +22,7 @@ export default function StackNav() {
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Register" component={RegisterScreen} />
         <Stack.Screen name="Order" component={OrderScreen} />
+        <Stack.Screen name="Single" component={SingleProductScreen} />
         <Stack.Screen name="Bottom" component={BottomNav} />
       </Stack.Navigator>
     </NavigationContainer>

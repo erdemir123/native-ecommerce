@@ -1,4 +1,4 @@
-import { View, Text, Image, StyleSheet, Pressable, TouchableOpacity } from "react-native";
+import { View, Text, Image, StyleSheet, Pressable } from "react-native";
 import React from "react";
 import { Box, Button, Heading, Input, WarningOutlineIcon } from "native-base";
 import Colors from "../data/color";
@@ -7,29 +7,20 @@ import validation from "../Components/validation";
 import { MaterialIcons, Entypo, EvilIcons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
-export default function LoginScreen() {
+export default function RegisterScreen() {
   const { navigate } = useNavigation();
-
-  const {
-    values,
-    handleBlur,
-    handleChange,
-    handleSubmit,
-    touched,
-    errors,
-    isSubmitting,
-  } = useFormik({
-    initialValues: {
-      email: "",
-      password: "",
-    },
-    onSubmit: async  (values) => {
-     await console.log("first")
-     await navigate("Order");
-    },
-    validationSchema: validation,
-  });
-
+  const { handleChange, handleBlur, handleSubmit, values, errors, touched } =
+    useFormik({
+      initialValues: {
+        email: "",
+        password: "",
+      },
+      validationSchema: validation,
+      
+      onSubmit: async (values) => {
+        await navigate("Bottom");
+      },
+    });
   return (
     <Box bg={Colors.main} w="100%" h="100%" borderColor="red" borderWidth="1">
       <Image
@@ -42,28 +33,7 @@ export default function LoginScreen() {
         LOGİN
       </Heading>
       <Box w="full" h="full" mt={2}>
-        {/* <Input
-          placeholder="FirstName LastName"
-          variant="underlined"
-          w="70%"
-          pl={2}
-          color={Colors.white}
-          mx="auto"
-          mb={1}
-          placeholderTextColor="white"
-          size="xl"
-          value={values.fullName}
-          onChangeText={handleChange("fullName")}
-          onBlur={handleBlur("fullName")}
-          InputLeftElement={<EvilIcons name="user" size={28} color="orange" />}
-          keyboardType="email-address"
-          autoCapitalize="none"
-        />
-        {errors.fullName && touched.fullName && (
-          <Text leftIcon={<WarningOutlineIcon size="2" />} style={styles.error}>
-            {errors.fullName}
-          </Text>
-        )} */}
+        
         <Input
           placeholder="user@gmail.com"
           variant="underlined"
@@ -105,7 +75,7 @@ export default function LoginScreen() {
             <Entypo name="eye-with-line" size={24} color="orange" />
           }
           secureTextEntry={true}
-          keyboardType="ascii-capable"
+          keyboardType="web-search"
         />
         {errors.password && touched.password && (
           <Text leftIcon={<WarningOutlineIcon size="2" />} style={styles.error}>
@@ -120,13 +90,10 @@ export default function LoginScreen() {
           rounded={50}
           w="40%"
           mx="auto"
-          onPress={() => navigate("Bottom")}
+          onPress={handleSubmit}
         >
           Login
         </Button>
-        <TouchableOpacity onPress={handleSubmit}>
-          <Text>dokun la</Text>
-        </TouchableOpacity>
         <Pressable mt={2} onPress={() => navigate("Register")}>
           <Text
             style={{
@@ -135,7 +102,7 @@ export default function LoginScreen() {
               fontSize: 18,
               opacity: 0.6,
             }}
-          >
+            >
             Sing Up
           </Text>
         </Pressable>

@@ -7,14 +7,14 @@ const messages = {
 };
 
 let validation = object({
-  fullName: string().required(messages.required),
+  fullName: string(),
   email: string().email(messages.email).required(messages.required),
   password: string()
-    .min(8, messages.min)
+    .min(2, messages.min)
     .required(messages.required)
-    .matches(
-      /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,}$/,
-      messages.pass
-    ),
+    // .matches(
+    //   /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,}$/,
+    //   messages.pass
+    // ),
 });
 export default validation;
