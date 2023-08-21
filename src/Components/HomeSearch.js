@@ -5,7 +5,7 @@ import Colors from "../data/color";
 import { Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
-export default function HomeSearch() {
+export default function HomeSearch({setSearch,search}) {
   const { navigate } = useNavigation();
   return (
     <HStack
@@ -26,6 +26,8 @@ export default function HomeSearch() {
         _focus={
            { bg:Colors.white}
         }
+        value={search}
+        onChangeText={text=>setSearch(text)}
       />
       <Pressable ml={3} onPress={()=>navigate("CartScreen")}>
         <Feather name="shopping-bag" size={24} color="white"  />

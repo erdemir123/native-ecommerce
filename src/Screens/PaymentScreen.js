@@ -18,9 +18,11 @@ import Colors from "../data/color";
 import Buttone from "../Components/Buttone";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { TouchableOpacity } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 export default function PaymentScreen() {
   const [activePayment, setActivePayment] = useState(1);
+  const { navigate } = useNavigation();
   const PaymentsMethods = [
     {
       image: require("../../assets/PayPal.png"),
@@ -89,7 +91,7 @@ console.log(PaymentsMethods[activePayment].alt)
           })}
         </VStack>
 
-        <Buttone bg={Colors.main} color={Colors.white}>
+        <Buttone bg={Colors.main} color={Colors.white} onPress={() => navigate("PlaceOrderScreen")}>
           Continue
         </Buttone>
         <Text italic textAlign="center" mt={5}>

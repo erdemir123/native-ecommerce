@@ -11,21 +11,23 @@ import SingleProductScreen from "../Screens/SingleProductScreen";
 import ShippingScreen from "../Screens/ShippingScreen";
 import PaymentScreen from "../Screens/PaymentScreen";
 import PlaceOrderScreen from "../Screens/PlaceOrderScreen";
+import HomeScreen from "../Screens/HomeScreen";
 const Stack = createNativeStackNavigator();
-export default function StackNav() {
+export default function HomekNav() {
   return (
-    <NavigationContainer>
-      <StatusBar hidden={true} />
-      <Stack.Navigator
-        initialRouteName="Login"
-        screenOptions={{
-          headerShown: false,
-        }}
-      >
-        <Stack.Screen name="Login" component={LoginScreen} />
-        <Stack.Screen name="Register" component={RegisterScreen} />
-        <Stack.Screen name="Bottom" component={BottomNav} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Stack.Navigator
+      initialRouteName="Home"
+      screenOptions={{
+        headerShown: false,
+      }}
+    >
+      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Order" component={OrderScreen} />
+      <Stack.Screen name="Shipping" component={ShippingScreen} />
+      <Stack.Screen name="Single" component={SingleProductScreen} />
+      <Stack.Screen name="PaymentScreen" component={PaymentScreen} />
+      <Stack.Screen name="PlaceOrderScreen" component={PlaceOrderScreen} />
+      <Stack.Screen name="OrderScreen" component={OrderScreen} />
+    </Stack.Navigator>
   );
 }

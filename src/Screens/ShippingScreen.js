@@ -10,7 +10,9 @@ import {
 } from "native-base";
 import Colors from "../data/color";
 import Buttone from "../Components/Buttone";
+import { useNavigation } from "@react-navigation/native";
 export default function ShippingScreen() {
+  const { navigate } = useNavigation();
   const Inputs = [
     { Label: "Enter City", type: "text" },
     { Label: "Enter Country", type: "text" },
@@ -56,7 +58,7 @@ export default function ShippingScreen() {
                 </FormControl>
               );
             })}
-            <Buttone bg={Colors.main} color={Colors.white}>
+            <Buttone onPress={() => navigate("PaymentScreen")} bg={Colors.main} color={Colors.white} >
               Continue
             </Buttone>
           </VStack>

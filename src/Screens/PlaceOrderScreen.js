@@ -6,8 +6,10 @@ import OrderInfo from "../Components/OrderInfo";
 import { FontAwesome, FontAwesome5, Ionicons } from "@expo/vector-icons";
 import OrderItem from "../Components/OrderItem";
 import PlaceOrderModel from "../Components/PlaceOrderModel";
+import { useNavigation } from "@react-navigation/native";
 
 export default function PlaceOrderScreen() {
+  const { navigate } = useNavigation();
   return (
     <Box bg={Colors.subGreen} flex={1} safeArea pt={6}>
       <Box>

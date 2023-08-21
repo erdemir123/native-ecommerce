@@ -3,9 +3,11 @@ import React, { useState } from "react";
 import { Center, HStack, Modal, VStack, Text, Button } from "native-base";
 import Buttone from "./Buttone";
 import Colors from "../data/color";
+import { useNavigation } from "@react-navigation/native";
 
 export default function PlaceOrderModel() {
   const [showModal, setShowModel] = useState(false);
+  const { navigate } = useNavigation();
   const OrderInfos = [
     { title: "Products", price: 125.77, color: "black" },
     { title: "Shipping", price: 56.77, color: "black" },
@@ -53,7 +55,10 @@ export default function PlaceOrderModel() {
               _text={{
                 color: Colors.white,
               }}
-              onPress={() => setShowModel(false)}
+              onPress={() => {
+                setShowModel(false);
+                navigate("OrderScreen");
+              }}
               _pressed={{
                 bg: Colors.main,
               }}

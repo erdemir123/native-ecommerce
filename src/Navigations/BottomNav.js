@@ -14,6 +14,7 @@ import Colors from "../data/color";
 import { Box, Center, Text, Pressable, View } from "native-base";
 import { StyleSheet } from "react-native";
 import { AntDesign, FontAwesome, Entypo } from "@expo/vector-icons";
+import HomeNav from "./HomeNav";
 
 const Tab = createBottomTabNavigator();
 const CustomBar = ({ children, onPress, focused }) => 
@@ -26,7 +27,7 @@ const CustomBar = ({ children, onPress, focused }) =>
       w={50}
       rounded="full"
       bg={Colors.main}
-      top={-20}
+      top={-10}
     >
       {children}
     </Pressable>
@@ -43,7 +44,7 @@ export default function BottomNav(props) {
     >
       <Tab.Screen
         name="Main"
-        component={HomeScreen}
+        component={HomeNav}
         options={{
           tabBarIcon: ({ focused }) => (
             <Center>
