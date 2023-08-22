@@ -17,7 +17,7 @@ export default function StackNav() {
     <NavigationContainer>
       <StatusBar hidden={true} />
       <Stack.Navigator
-        initialRouteName="Login"
+        initialRouteName="Bottom"
         screenOptions={{
           headerShown: false,
         }}

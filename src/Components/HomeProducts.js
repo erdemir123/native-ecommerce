@@ -1,6 +1,6 @@
-import { View, Text, Image, Pressable, TouchableOpacity } from "react-native";
+import { View, Image, Pressable, TouchableOpacity } from "react-native";
 import React, { useRef, useState } from "react";
-import { Center, FlatList } from "native-base";
+import { Box, Center, FlatList, Text } from "native-base";
 import data from "../data/data";
 import Colors from "../data/color";
 import Rating from "./Rating";
@@ -44,27 +44,30 @@ export default function HomeProducts({ search }) {
     </TouchableOpacity>
   );
   return (
-    
-      <FlatList
-        ref={flatListRef}
-        data={product}
-        renderItem={({ item }) => <RenderItem item={item} />}
-        keyExtractor={(item) => item.id}
-        showsVerticalScrollIndicator={false}
-        contentContainerStyle={{
-          flexDirection: "row", // Öğeleri yatayda sıralamak için
-          flexWrap: "wrap", // Taşanları alt satıra geçirmek için
-          justifyContent: "center", // Ortalamak için
-          paddingTop: 5,
-          gap: 6,
-          backgroundColor: Colors.subGreen,
-          flex:1
-        }}
-        onRefresh={handleRefresh}
-        refreshing={isRefresh}
-        // onEndReached={handleFlatListEnd}
-        // onEndReachedThreshold={0.05}
-      />
-   
+    <Box bg={Colors.subGreen} flex={1}>
+      {product.length ? (
+        <FlatList
+          ref={flatListRef}
+          data={product}
+          renderItem={({ item }) => <RenderItem item={item} />}
+          keyExtractor={(item) => item.id}
+          showsVerticalScrollIndicator={false}
+          contentContainerStyle={{
+            flexDirection: "row", // Öğeleri yatayda sıralamak için
+            flexWrap: "wrap", // Taşanları alt satıra geçirmek için
+            justifyContent: "center", // Ortalamak için
+            paddingTop: 5,
+            gap: 6,
+            backgroundColor: Colors.subGreen,
+          }}
+          onRefresh={handleRefresh}
+          refreshing={isRefresh}
+          // onEndReached={handleFlatListEnd}
+          // onEndReachedThreshold={0.05}
+        />
+      ) : (
+        <Center  flex={1} justifyContent="center" alignItems="center" ><Text textTransform="uppercase" fontSize="lg" color={Colors.paypal}>no matching words found...</Text></Center>
+      )}
+    </Box>
   );
 }
